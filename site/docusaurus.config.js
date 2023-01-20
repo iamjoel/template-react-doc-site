@@ -12,7 +12,7 @@ const config = {
   title: 'Doc template',
   tagline: 'Docusaurus and tailwind are cool~',
   url: 'https://github.com',
-  baseUrl: `/site/${projectPath}/build`,
+  baseUrl: `/${projectPath}/site/build`,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
