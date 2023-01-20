@@ -1,4 +1,4 @@
-# React 栈 文档网站
+# React 栈 文档网站模板
 > 基于 [Docusaurus 2](https://docusaurus.io/)。加载了 [tailwind 3](https://tailwindcss.com/)。
 >
 
