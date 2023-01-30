@@ -26,6 +26,11 @@ const config = [
     label: '卡片列表',
     id: `${PREFIX}/content/card-list`,
   },
+  {
+    type: 'doc',
+    label: 'acro.design',
+    id: `${PREFIX}/content/acro-design`,
+  },
 ]
 
 module.exports = config
