@@ -75,21 +75,21 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'category-1/nav',
+            docId: 'docusaurus/nav',
             position: 'left',
-            label: '分类1',
+            label: 'docusaurus 文档',
           },
           {
             type: 'doc',
-            docId: 'category-2/nav',
+            docId: 'tailwind-css/nav',
             position: 'left',
-            label: '分类2',
+            label: 'tailwind css',
           },
           {
             type: 'doc',
-            docId: 'category-3/nav',
+            docId: 'awesome/overview',
             position: 'left',
-            label: '分类3',
+            label: '效果展示',
           },
           // right
           {
