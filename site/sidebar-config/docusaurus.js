@@ -9,11 +9,17 @@ const config = [
   {
     type: 'category',
     label: '功能',
+    collapsed: false,
     items: [
       {
         type: 'doc',
         label: 'MDX',
         id: `${PREFIX}/feature/mdx`
+      },
+      {
+        type: 'doc',
+        label: '流程图',
+        id: `${PREFIX}/feature/diagrams`
       },
     ]
   },

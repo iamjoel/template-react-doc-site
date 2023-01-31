@@ -25,6 +25,7 @@ docusaurus 的配置文件是 `docusaurus.config.js`。
   {`{
   type: 'category',
   label: '分类名称',
+  collapsed: false, // 分类是否被折叠的默认值
   items: [
     // 分类或页面
   ]
@@ -46,6 +47,21 @@ docusaurus 的配置文件是 `docusaurus.config.js`。
 id 的路径从 `docs` 目录开始算，不需要加后缀。  
 如：本文的 `id` 是 `docusaurus/config/overview`，在项目中相对路径是：`site/docs/docusaurus/config/overview.mdx`。
 :::
+
+## 页面配置(metadata)
+页面配置是文件开头配置的。用 `---` 包围。
+```
+---
+这里配置
+---
+```
+
+### 不显示右侧大纲视图
+```
+hide_table_of_contents: true
+```
+
+更多见：[官方文档](https://docusaurus.io/docs/markdown-features/head-metadata)。
 
 ## 配置中文搜索
 本项目用的是 [@easyops-cn/docusaurus-search-local](https://github.com/easyops-cn/docusaurus-search-local)。
@@ -81,3 +97,11 @@ $ npm i @docusaurus/theme-common --save
 ]`
 }
 </CodeBlock>
+
+## 多语言
+```js
+i18n: {
+  defaultLocale: 'zh-Hans',
+  locales: ['zh-Hans'],
+}
+````

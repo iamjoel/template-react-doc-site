@@ -51,6 +51,10 @@ const config = {
     ],
   ],
 
+  markdown: {
+    mermaid: true,
+  },
+
   themes: [
     // local search: https://github.com/easyops-cn/docusaurus-search-local
     [
@@ -63,7 +67,8 @@ const config = {
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
       })
-    ]
+    ],
+    '@docusaurus/theme-mermaid'
   ],
 
   themeConfig:
@@ -78,7 +83,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'docusaurus/overview',
+            docId: 'docusaurus/config/overview',
             position: 'left',
             label: 'Docusaurus 文档',
           },
