@@ -78,9 +78,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'docusaurus/nav',
+            docId: 'docusaurus/overview',
             position: 'left',
-            label: 'docusaurus 文档',
+            label: 'Docusaurus 文档',
           },
           {
             type: 'doc',

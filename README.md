@@ -2,17 +2,13 @@
 > 基于 [Docusaurus 2](https://docusaurus.io/)。
 
 ## 效果展示
-### 组件文档
-![](imgs/demo/component-doc.jpg)
+![组件文档](imgs/demo/component-doc.jpg)
 
-### 测试用例
-![](imgs/demo/test-case.jpg)
+![测试用例](imgs/demo/test-case.jpg)
 
-### 代码小抄(cheat sheet)
-![](imgs/demo/cheat-sheet.jpg)
+![代码小抄(cheat sheet)](imgs/demo/cheat-sheet.jpg)
 
-### 卡片列表
-![](imgs/demo/card-list.jpg)
+![卡片列表](imgs/demo/card-list.jpg)
 
 ## 已配置内容
 * [tailwind 3](https://tailwindcss.com/)。

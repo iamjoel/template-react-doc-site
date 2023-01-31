@@ -3,20 +3,25 @@ const PREFIX = 'docusaurus'
 const config = [
   {
     type: 'doc',
-    label: 'docusaurus',
-    id: `${PREFIX}/nav`,
+    label: 'Docusaurus 概览',
+    id: `${PREFIX}/overview`,
   },
   {
     type: 'category',
-    label: '内容',
+    label: '功能',
     items: [
       {
         type: 'doc',
-        label: 'mdx',
-        id: `${PREFIX}/content/mdx`
+        label: 'MDX',
+        id: `${PREFIX}/feature/mdx`
       },
     ]
-  }
+  },
+  {
+    type: 'doc',
+    label: '配置',
+    id: `${PREFIX}/config/overview`,
+  },
 ]
 
 module.exports = config
