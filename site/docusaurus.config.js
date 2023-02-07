@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const VeauryVuePlugin = require('./plugins/vueuary-vue')
 
 const projectPath = 'template-react-doc-site'
 const projectName = '文档模板'
@@ -128,6 +129,18 @@ const config = {
             return postcssOptions; 
           }, 
         }; 
+      },
+      // 使用 Vue
+      async function useVue(context, options) {
+        return {
+          name: 'use-vue',
+          configureWebpack(config, isServer, utils) {
+            // config.plugins.push(new VeauryVuePlugin())
+            return {
+              plugins: [new VeauryVuePlugin()]
+            }
+          },
+        };
       },
     ],
 };

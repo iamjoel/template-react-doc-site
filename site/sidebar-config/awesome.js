@@ -31,6 +31,11 @@ const config = [
     label: 'acro.design',
     id: `${PREFIX}/content/acro-design`,
   },
+  {
+    type: 'doc',
+    label: '使用 Vue 组件',
+    id: `${PREFIX}/content/vue/index`,
+  },
 ]
 
 module.exports = config
